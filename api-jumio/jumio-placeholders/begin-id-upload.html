@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Applicant KYC - Jumio</title>
+    <link rel="stylesheet" href="../index.css">
+</head>
+<body>
+  <p>Do ID/Selfie</p>
+<script>
+  document.addEventListener('DOMContentLoaded', (event) => {
+    setTimeout(function() {
+      const redirectUrl = 'http://localhost:8080/address-verification.html?customerInternalReference=16c9a3c6-870d-4a98-9e00-3eae58d120eb';
+      console.log(redirectUrl)
+       window.location.href = redirectUrl;
+     }, 3000);
+  });
+</script>
+</body>
+</html>
